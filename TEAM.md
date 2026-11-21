@@ -13,7 +13,7 @@
 | --: | ------ | ---- | ----- | ------ | ------- |
 |   1 | Nguyễn Văn Nhi | 2A202603697 | nguyenvannhi224@gmail.com | hagasei | Người viết code (phụ trách CP1) |
 |   2 | Ngô Huy Hoàng | 2A202603622 | — | HuyHoangg10 | Người kiểm số (phụ trách CP2) |
-|   3 |        |      |       |        |         |
+|   3 | Nguyễn Ngọc Toàn | 2A202603405 |       |        | Người gắn nhãn 1 |
 |   4 |        |      |       |        |         |
 
 Bốn vai của lab:
@@ -72,6 +72,21 @@ Sao chép mục dưới đây cho từng thành viên.
 - Code: `src/lab13.py` (`tinh_nhiem_vu_b`, `in_nhiem_vu_b`).
 - Hồ sơ: `report/team/bang_chi_phi.md` (B1–B4).
 - Báo cáo cá nhân: `report/team/2A202603622_NgoHuyHoang.md`.
+
+## Nguyễn Ngọc Toàn (2A202603405)
+
+### Phần việc phụ trách
+
+- Người gắn nhãn 1, phụ trách theo dõi yêu cầu CP3 và tổng hợp bảng phân loại lỗi, cách khắc phục cho trợ lý hoàn phí.
+
+### Đóng góp cụ thể
+
+- Chuẩn bị bảng tham khảo cho 20 ca lỗi với hỗ trợ của AI và đối chiếu nhãn với slide chữa.
+- Hoàn thiện bảng khắc phục cho 5 loại lỗi, mỗi ca có sự kiện phát hiện, ngưỡng cảnh báo, tần suất kiểm tra và vai trò phụ trách.
+
+### Bằng chứng
+
+- [Bảng lỗi và cách khắc phục CP3](report/team/bang_loi.md).
 
 ## HoVaTen-MSSV
 
