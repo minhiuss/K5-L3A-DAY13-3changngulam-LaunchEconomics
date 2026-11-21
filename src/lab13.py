@@ -296,6 +296,19 @@ if __name__ == '__main__':
     de_e = 1 + (m_e - 1) * ICC
     print(f'D1e: {n_6}/group, m>= {m_e} request/person, DE = {de_e:.2f}') # what is .2f? 
 
+    h_5 = proportion_effectsize(0.75, 0.70) 
+    power_5 = NormalIndPower().power(effect_size=h_5, nobs1=n_6, alpha=0.05)
+    print(f'D1 power at 5 points with n = {n_6}: {power_5:.2f}')
+
+    # D3 · Số nền trước khi đặt luật dừng (đợt chạy thử, không có đối chứng)
+    pham_vi = reqs[reqs['loai'].isin(['noi_dia', 'hang_nang'])]       # phạm vi pilot theo A3
+    for ten, d in [('Toàn bộ 1.200 yc', reqs), ('Phạm vi noi_dia + hang_nang', pham_vi)]:
+        xem = d[d['duoc_xem_lai'] == 1]
+        mo_lai = d['mo_lai_trong_7_ngay'].mean()                       # an toàn: lỗi lọt đến khách
+        bo_qua = xem['quyet_dinh_xem_lai'].isin(['sua', 'bo']).mean()  # sử dụng: bỏ qua gợi ý
+        print(f'D3 {ten:28s}: mở lại 7 ngày {mo_lai:.2%} ({d["mo_lai_trong_7_ngay"].sum()}/{len(d)}), '
+              f'bỏ qua gợi ý {bo_qua:.2%} ({len(xem)} ca xem lại)')
+
     
 
 
