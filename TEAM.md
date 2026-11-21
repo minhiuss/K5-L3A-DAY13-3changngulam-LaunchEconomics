@@ -12,7 +12,7 @@
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
 |   1 | Nguyễn Văn Nhi | 2A202603697 | nguyenvannhi224@gmail.com | hagasei | Người viết code (phụ trách CP1) |
-|   2 |        |      |       |        |         |
+|   2 | Ngô Huy Hoàng | 2A202603622 | — | HuyHoangg10 | Người kiểm số (phụ trách CP2) |
 |   3 |        |      |       |        |         |
 |   4 |        |      |       |        |         |
 
@@ -54,6 +54,24 @@ Sao chép mục dưới đây cho từng thành viên.
 - Code: `src/lab13.py` (các hàm A1, `mo_hinh`, `in_nhiem_vu_a`).
 - Hồ sơ: `report/team/bang_chi_phi.md` (các mục A1, A2, A3, A4).
 - Báo cáo cá nhân: `report/team/2A202603697_NguyenVanNhi.md`.
+
+## NgoHuyHoang-2A202603622
+
+### Phần việc phụ trách
+
+- Người kiểm số — phụ trách CP2 (Nhiệm vụ B: bảng độ nhạy).
+
+### Đóng góp cụ thể
+
+- Viết phần tính B1–B4 trong `src/lab13.py`, dùng lại hàm `mo_hinh()` của CP1 thay vì điền số cố định.
+- Hoàn thiện 9 kịch bản B1, kịch bản kết hợp B2, so sánh giới hạn chạy lại B3 và trường hợp xem lại 100% ở B4.
+- Điền kết quả CP2 vào `report/team/bang_chi_phi.md` và gắn nhãn `simulated` cho các số liên quan.
+
+### Bằng chứng
+
+- Code: `src/lab13.py` (`tinh_nhiem_vu_b`, `in_nhiem_vu_b`).
+- Hồ sơ: `report/team/bang_chi_phi.md` (B1–B4).
+- Báo cáo cá nhân: `report/team/2A202603622_NgoHuyHoang.md`.
 
 ## HoVaTen-MSSV
 
