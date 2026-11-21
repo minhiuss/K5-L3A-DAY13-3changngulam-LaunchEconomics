@@ -15,7 +15,8 @@
 | 1   | Nguyễn Văn Nhi   | 2A202603697 | [nguyenvannhi224@gmail.com](mailto:nguyenvannhi224@gmail.com) | hagasei     | Người viết code (phụ trách CP1)  |
 | 2   | Ngô Huy Hoàng    | 2A202603622 | —                                                             | HuyHoangg10 | Người kiểm số (phụ trách CP2)    |
 | 3   | Nguyễn Ngọc Toàn | 2A202603405 | ngoctoan140604@gmail.com                                      | jpack1      | Người gắn nhãn 1 (Phụ trách CP3) |
-| 4   |                  |             |                                                               |             |                                  |
+| 4   | Đỗ Minh Hiếu     | 2A202603402 | mhieudo11102@gmail.com                                        | minhius     | Phụ trách CP4 + repo nhóm        |
+| 5   | Nguyễn Đức Trung | 2A202603423 | trungducnguyen2k@gmail.com                                    | NguyenDucTrung999 | Phụ trách CP5              |
 
 
 Bốn vai của lab:
@@ -89,6 +90,26 @@ Sao chép mục dưới đây cho từng thành viên.
 ### Bằng chứng
 
 - [Bảng lỗi và cách khắc phục CP3](report/team/bang_loi.md).
+
+## DoMinhHieu-2A202603402
+
+### Phần việc phụ trách
+
+- Phụ trách CP4 (Nhiệm vụ D: `pilot_plan.yaml`) và tạo, quản lý repo nhóm (fork, đồng bộ với repo đề, đổi tên theo mẫu).
+
+### Đóng góp cụ thể
+
+- Viết hàm `co_mau(p1, p2)` và khối `TODO CP4` trong `src/lab13.py`: tính năm câu D1 (`1.251` · DE `2,48` → 42 người/nhóm, không đủ người · tối đa `1.000` · tối đa `300` · m ≥ `299`, DE `6,96`) và power `0,64` nếu tác động thật chỉ 5 điểm.
+- Trả lời năm câu D2 cho cách chia theo nhân viên 20 + 20, ghi đánh đổi đã chấp nhận (mde 6 điểm).
+- Tính số nền trước khi đặt luật dừng (mở lại `3,97%`, bỏ qua gợi ý `21,09%` trong phạm vi) và điền đủ `report/team/pilot_plan.yaml` với ba luật dừng NẾU – TRONG – THÌ – KHÔNG THÌ.
+- Xử lý conflict khi ghép code CP4 với CP1/CP2 để `python lab13.py` chạy hết.
+
+### Bằng chứng
+
+- Commit `edce320` (D1) và `671f570` (power, D2, D3).
+- Code: `src/lab13.py` (`co_mau`, khối `TODO CP4`).
+- Hồ sơ: `report/team/pilot_plan.yaml`.
+- Báo cáo cá nhân: `report/team/2A202603402_DoMinhHieu.md`.
 
 ## HoVaTen-MSSV
 
