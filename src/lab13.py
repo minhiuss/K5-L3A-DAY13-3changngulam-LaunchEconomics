@@ -304,10 +304,14 @@ if __name__ == '__main__':
     pham_vi = reqs[reqs['loai'].isin(['noi_dia', 'hang_nang'])]       # phạm vi pilot theo A3
     for ten, d in [('Toàn bộ 1.200 yc', reqs), ('Phạm vi noi_dia + hang_nang', pham_vi)]:
         xem = d[d['duoc_xem_lai'] == 1]
+        chinh_mask = (d['dong_trong_24h'] == 1) & (d['mo_lai_trong_7_ngay'] == 0)
+        chinh = chinh_mask.mean()                                      # chính: đóng 24h không mở lại 7 ngày
         mo_lai = d['mo_lai_trong_7_ngay'].mean()                       # an toàn: lỗi lọt đến khách
         bo_qua = xem['quyet_dinh_xem_lai'].isin(['sua', 'bo']).mean()  # sử dụng: bỏ qua gợi ý
-        print(f'D3 {ten:28s}: mở lại 7 ngày {mo_lai:.2%} ({d["mo_lai_trong_7_ngay"].sum()}/{len(d)}), '
-              f'bỏ qua gợi ý {bo_qua:.2%} ({len(xem)} ca xem lại)')
+        bo_qua_so = xem['quyet_dinh_xem_lai'].isin(['sua', 'bo']).sum()
+        print(f'E1/D3 {ten:28s}: đóng 24h không mở lại {chinh:.2%} ({chinh_mask.sum()}/{len(d)}), '
+              f'mở lại 7 ngày {mo_lai:.2%} ({d["mo_lai_trong_7_ngay"].sum()}/{len(d)}), '
+              f'bỏ qua gợi ý {bo_qua:.2%} ({bo_qua_so}/{len(xem)} ca xem lại)')
 
     
 
