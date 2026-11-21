@@ -113,3 +113,23 @@ Sao chép mục dưới đây cho từng thành viên.
 - Code: `src/lab13.py` (`co_mau`, khối `TODO CP4`).
 - Hồ sơ: `report/team/pilot_plan.yaml`.
 - Báo cáo cá nhân: `report/team/2A202603402_DoMinhHieu.md`.
+
+## NguyenDucTrung-2A202603423
+
+### Phần việc phụ trách
+
+- Phụ trách CP5 (Nhiệm vụ E: Chỉ số, event, rủi ro kinh tế, hồ sơ launch v0) và hỗ trợ tổng hợp báo cáo nhóm.
+
+### Đóng góp cụ thể
+
+- Tính toán các chỉ số vận hành E1 trên toàn bộ 1.200 yêu cầu (chính 82,83%, bỏ qua gợi ý 27,12%, an toàn 4,25%) và trong phạm vi pilot (chính 92,26%, mở lại 3,97%).
+- Thiết kế danh sách 10 event nghiệp vụ bắt buộc mang `trace_id` và bảng kiểm tra chéo đo lường chỉ số trong `report/team/chi_so.md`.
+- Trích xuất và xây dựng bảng rủi ro kinh tế (Risk Register) gồm 4 dòng rủi ro chính kèm số liệu [simulated] từ bảng độ nhạy B1/B2.
+- Hoàn thiện hồ sơ launch v0 7 mục theo chuẩn Gate 2a trong `report/team/ho_so_launch_v0.md` với đề xuất Go có điều kiện kèm 5 điều kiện tiên quyết, người phụ trách và ngày kiểm tra cụ thể; không dùng từ cấm "production".
+
+### Bằng chứng
+
+- Nhánh cá nhân: `cp5-trung`.
+- Code: `src/lab13.py` (khối in chỉ số E1/D3).
+- Hồ sơ: `report/team/chi_so.md`, `report/team/ho_so_launch_v0.md`.
+- Báo cáo cá nhân: `report/team/2A202603423_NguyenDucTrung.md`.
