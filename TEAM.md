@@ -2,16 +2,16 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Lớp: L3A hoặc L3B
-- Repo nhóm: `K5-L3A-DAY13-TenNhom-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt:
+- Tên nhóm: 3changngulam
+- Lớp: L3A
+- Repo nhóm: `K5-L3A-DAY13-3changngulam-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
+- URL repo, nhánh nộp, commit chốt: https://github.com/minhiuss/K5-L3A-DAY13-3changngulam-LaunchEconomics
 
 ## Thành viên
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 |        |      |       |        |         |
+|   1 | Nguyễn Văn Nhi | | nguyenvannhi224@gmail.com | hagasei | Người viết code (phụ trách CP1) |
 |   2 |        |      |       |        |         |
 |   3 |        |      |       |        |         |
 |   4 |        |      |       |        |         |
@@ -37,11 +37,11 @@ Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 
 Sao chép mục dưới đây cho từng thành viên.
 
-## HoVaTen-MSSV
+## NguyenVanNhi-MSSV
 
 ### Phần việc phụ trách
 
--
+- Người viết code (phụ trách CP1 — Nhiệm vụ A: Mô hình chi phí mỗi việc thành công)
 
 ### Đóng góp cụ thể
 
