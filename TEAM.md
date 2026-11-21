@@ -5,7 +5,7 @@
 - Tên nhóm: 3changngulam
 - Lớp: L3A
 - Repo nhóm: `K5-L3A-DAY13-3changngulam-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt: [https://github.com/minhiuss/K5-L3A-DAY13-3changngulam-LaunchEconomics](https://github.com/minhiuss/K5-L3A-DAY13-3changngulam-LaunchEconomics)
+- URL repo, nhánh nộp, commit chốt: [https://github.com/minhiuss/K5-L3A-DAY13-3changngulam-LaunchEconomics](https://github.com/minhiuss/K5-L3A-DAY13-3changngulam-LaunchEconomics) · nhánh nộp: `main` · commit chốt nội dung: `d1b2e6f` (commit cuối trên `main` chỉ cập nhật dòng này và thành viên)
 
 ## Thành viên
 
@@ -16,6 +16,7 @@
 | 2   | Ngô Huy Hoàng    | 2A202603622 | —                                                             | HuyHoangg10 | Người kiểm số (phụ trách CP2, phiếu chấm hội đồng Gate 2a) |
 | 3   | Nguyễn Ngọc Toàn | 2A202603405 | ngoctoan140604@gmail.com                                      | jpack1      | Người gắn nhãn 1 (Phụ trách CP3) |
 | 4   | Đỗ Minh Hiếu     | 2A202603402 | mhieudo11102@gmail.com                                        | minhius     | Người gắn nhãn 2 kiêm giữ hồ sơ (Phụ trách CP4 + repo nhóm) |
+| 5   | Nguyễn Đức Trung | 2A202603423 | trungducnguyen2k@gmail.com                                    | NguyenDucTrung999 | Phụ trách CP5 (chỉ số, event, rủi ro kinh tế) |
 
 
 Bốn vai của lab:
