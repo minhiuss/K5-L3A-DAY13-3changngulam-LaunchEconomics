@@ -5,16 +5,18 @@
 - Tên nhóm: 3changngulam
 - Lớp: L3A
 - Repo nhóm: `K5-L3A-DAY13-3changngulam-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt: https://github.com/minhiuss/K5-L3A-DAY13-3changngulam-LaunchEconomics
+- URL repo, nhánh nộp, commit chốt: [https://github.com/minhiuss/K5-L3A-DAY13-3changngulam-LaunchEconomics](https://github.com/minhiuss/K5-L3A-DAY13-3changngulam-LaunchEconomics)
 
 ## Thành viên
 
-| STT | Họ tên | MSSV | Email | GitHub | Vai trò |
-| --: | ------ | ---- | ----- | ------ | ------- |
-|   1 | Nguyễn Văn Nhi | 2A202603697 | nguyenvannhi224@gmail.com | hagasei | Người viết code (phụ trách CP1) |
-|   2 | Ngô Huy Hoàng | 2A202603622 | — | HuyHoangg10 | Người kiểm số (phụ trách CP2) |
-|   3 | Nguyễn Ngọc Toàn | 2A202603405 |       |        | Người gắn nhãn 1 |
-|   4 |        |      |       |        |         |
+
+| STT | Họ tên           | MSSV        | Email                                                         | GitHub      | Vai trò                          |
+| ---: | ---------------- | ----------- | ------------------------------------------------------------- | ----------- | -------------------------------- |
+| 1   | Nguyễn Văn Nhi   | 2A202603697 | [nguyenvannhi224@gmail.com](mailto:nguyenvannhi224@gmail.com) | hagasei     | Người viết code (phụ trách CP1)  |
+| 2   | Ngô Huy Hoàng    | 2A202603622 | —                                                             | HuyHoangg10 | Người kiểm số (phụ trách CP2)    |
+| 3   | Nguyễn Ngọc Toàn | 2A202603405 | ngoctoan140604@gmail.com                                      | jpack1      | Người gắn nhãn 1 (Phụ trách CP3) |
+| 4   |                  |             |                                                               |             |                                  |
+
 
 Bốn vai của lab:
 
@@ -92,12 +94,12 @@ Sao chép mục dưới đây cho từng thành viên.
 
 ### Phần việc phụ trách
 
--
+- 
 
 ### Đóng góp cụ thể
 
--
+- 
 
 ### Bằng chứng
 
--
+- 
