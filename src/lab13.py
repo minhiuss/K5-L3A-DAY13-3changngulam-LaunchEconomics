@@ -5,6 +5,8 @@ Bản gốc chưa sửa nằm ở lab13_starter.py.
 """
 import math
 import pandas as pd
+from statistics import NormalDist
+
 
 # Bảng giá GIẢ ĐỊNH của lab (không phải giá thật của nhà cung cấp nào)
 GIA_VAO = 26        # đồng cho 1.000 token đầu vào
@@ -253,6 +255,12 @@ def in_nhiem_vu_b(runs, reqs):
             f'({dong["so_voi_baseline"]:.2f}x), hoà vốn xem lại ≤ {dong["phut_xem_lai_hoa_von"]:.1f} phút'
         )
 
+def co_mau(p1, p2, alpha=0.05, power=0.8):
+        za = NormalDist().inv_cdf(1 - alpha/2)
+        zb = NormalDist().inv_cdf(power)
+        pb = (p1+p2)/2
+        return math.ceil((za * math.sqrt(2 * pb * (1 - pb))
+                      + zb * math.sqrt(p1 * (1 - p1) + p2 * (1 - p2))) ** 2 / (p2 - p1) ** 2)
 
 if __name__ == '__main__':
     runs = pd.read_csv('logix_runs.csv')
@@ -260,5 +268,34 @@ if __name__ == '__main__':
     in_nhiem_vu_a(runs, reqs)
     in_nhiem_vu_b(runs, reqs)
     # TODO CP4 · Nhiệm vụ D: cỡ mẫu.
-    #   from statsmodels.stats.proportion import proportion_effectsize
-    #   from statsmodels.stats.power import NormalIndPower
+    from statsmodels.stats.proportion import proportion_effectsize
+    from statsmodels.stats.power import NormalIndPower
+    
+    n_a = co_mau(0.70, 0.75)
+    print('D1a', n_a)
+
+    ICC = 0.02
+    m = 75
+    de_b = 1 + (m-1)*ICC
+    print(f'De_b: {de_b}')
+    n_b = math.ceil((n_a*de_b))
+    print(f'n_b: {n_b}')
+    staff_b = math.ceil(n_b/75)
+    print(f'D1b: DE = {de_b:.2f}, n = {n_b}/group, {staff_b} people/group, '
+          f'total {2 * staff_b} > 40 -> not enough staff')
+
+    cap_c = int(20 / ICC)
+    print(f'D1c: max {cap_c} < {n_a} -> not reached')
+    
+    cap_d = int(6 / ICC)
+    print(f'D1d: max {cap_d}')
+
+    n_6 = co_mau(0.70, 0.76)
+    # n_6 = 20*m / (1+(m-1)*ICC) keep for later if needed
+    m_e = math.ceil(n_6*(1-ICC)/(20-n_6*ICC)) 
+    de_e = 1 + (m_e - 1) * ICC
+    print(f'D1e: {n_6}/group, m>= {m_e} request/person, DE = {de_e:.2f}') # what is .2f? 
+
+    
+
+
